@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <title>Accessible Nav Region</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- a viewport declaration which does not disable zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This template offers students a few basic accessibility and grid area practices." />
+    <meta name="author" content="Chris Lindgren" />
+
+    <!-- Linked CSS stylesheet with a non-blocking stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css"
+          media="none" onload="if(media!='all')media='all'" />
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+  </head>
+  <body class="grid theme">
+    <!--
+      A "skip link" for keyboard users.
+      You will hide it with CSS for visually-abled users.
+    -->
+    <a href="#main" id="skip-link">skip to main content</a>
+
+    <header class="grid-header t-header">
+      <h1 class="t-title">Title</h1>
+      <h2 class="t-subheading">Subheading</h2>
+    </header>
+    <nav class="grid-nav navigation t-nav-region">
+      <ul class="t-nav">
+        <li class="t-nav-link">
+          <a href="/" class="current-page" aria-describedby="current">Home</a>
+        </li>
+        <li class="t-nav-link nested-menu">
+          <a href="/about.html">About<span> ▾</span></a>
+          <ul>
+            <li><a href="#">Who we are</a></li>
+            <li><a href="#">What we do</a></li>
+          </ul>
+        </li>
+        <li class="t-nav-link">
+          <a href="/all.html">All</a>
+        </li>
+        <li class="t-nav-link">
+          <a href="/matters.html">Matters</a>
+        </li>
+        <li class="t-nav-link">
+          <a href="/important.html">Important</a>
+        </li>
+        <li class="t-nav-link">
+          <a href="/here-and-now.html">Here &amp; Now</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main" class="grid-main t-main">
+      <article class="t-main-content">
+        <section>
+          <h2 class="t-heading">Section Heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione veritatis mollitia omnis dolore numquam rerum nemo quas iusto, laborum dolores cupiditate unde cum est alias dignissimos eveniet voluptatem maiores, accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel molestiae alias dolorem repellendus quis eligendi expedita iure harum officiis, recusandae tenetur suscipit dolores debitis accusantium est provident omnis laborum porro!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit laborum fugiat reiciendis, itaque doloribus atque ex placeat minima ad rem, quam dicta! Perferendis provident voluptatem possimus, harum quae optio, illo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic qui, eos. Velit voluptatibus corporis eos, ipsum culpa nihil id, obcaecati sint, repudiandae vitae quia inventore. Impedit autem, dolore corporis aliquam!
+          </p>
+          <h3 class="t-subheading">Subheading</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores temporibus id velit quia maxime possimus, vel consectetur porro, laborum nostrum hic maiores, ipsam cumque. Nostrum totam sequi quam consequatur!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error odit id quo, quis in maiores! Ea, iusto autem porro consectetur voluptates, obcaecati, cupiditate molestiae nulla tempore possimus laboriosam distinctio nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rerum, doloribus obcaecati officia consectetur maxime dignissimos repellat nihil in laudantium quidem! Praesentium voluptas neque distinctio officiis ea. Fugit voluptatum, excepturi?
+          </p>
+        </section>
+      </article>
+    </main>
+    <aside class="grid-right t-right">
+      Feature
+      <div class="t-features">
+        <picture>
+          <source media="(min-width: 64em)" srcset="https://placehold.it/100x700">
+          <source media="(min-width: 37.5em)" srcset="https://placehold.it/80x600">
+          <source srcset="https://placehold.it/400x260">
+          <img srcset="https://placehold.it/120x120" alt="This picture loads on non-supporting browsers.">
+          <p>Accessible text.</p>
+        </picture>
+
+      </div>
+    </aside>
+    <footer class="grid-footer t-footer">
+      Footer
+    </footer>
+
+  </body>
+</html>

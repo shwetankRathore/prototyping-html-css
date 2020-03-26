@@ -1,0 +1,263 @@
+/* Fonts from https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans');
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-LightItalic-webfont.woff') format('woff');
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ====================
+  GENERAL STYLES
+  ===================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====================
+  TYPOGRAPHY SCHEME
+  ===================*/
+
+/* Basic Styles First */
+html {
+  font-size: 18px;
+}
+body {
+  color: #5D6063;
+  font-family: 'PT Sans';
+  line-height: 1.8em;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald';
+  line-height: 1.3em;
+  font-weight: normal;
+  font-style: normal;
+}
+em { font-style: italic; }
+strong { font-weight: bold;  /* Or 700 */ }
+code {
+  font-size: 0.9rem;
+  background: #ffdddd;
+  padding: 2.5px;
+  border-radius: 5px;
+}
+
+/* Mix of General Sizing Rules */
+/*
+  Using rem values
+    > Simple, but not flexible
+*/
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 2rem; }
+p,ul,ol { font-size: 1rem; }
+
+/*
+  Using vw values
+    > Flexible, but difficult to control
+*/
+
+/* h1 { font-size: 5vw; }
+h2 { font-size: 3.5vw; }
+p,ul,ol { font-size: 1.5vw; } */
+
+/*
+  Flexible typography using calc() + vw
+*/
+/* body {
+  font-size: 16px;
+  font-size: calc(16px + (18-14)*(100vw - 325px)/(1600 - 150));
+} */
+
+/* Specifying Rules for Class-Based Elements */
+.system-fonts {
+  font-family: sans-serif;
+}
+/* Paragraph indentation */
+.paragraph-indent p {
+  text-indent: 1.5em;
+  margin-bottom: 0;
+}
+.paragraph-indent p:first-of-type {
+  text-indent: 0;
+}
+
+/* ====================
+  PAGE STYLES
+  ===================*/
+
+header {
+  text-align: center;
+  color: #FFF;
+}
+
+nav {
+  background-color: #54575A;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+nav li {
+  list-style-type: none;
+  width: 50%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border-top: 1px solid #888F95;
+}
+
+nav li:nth-of-type(1),
+nav li:nth-of-type(2) {
+  border-top: none;
+}
+
+nav li:nth-of-type(2n) {
+  border-left: 1px solid #888F95;
+}
+
+nav li.selected {
+  color: #54A5C4;
+}
+
+nav a:link,
+nav a:visited {
+  color: #888F95;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:visited:hover,
+nav a:active,
+nav a:visited:active {
+  color: #54A5C4;
+  text-decoration: underline;
+}
+
+figure img {
+  width: 100%;
+}
+
+.hero {
+  padding-top: 9em;
+  padding-bottom: 9em;
+  background-color: #5D6063;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+
+.section {
+  padding: 4em 1em;
+  margin: 0 auto;
+  max-width: 625px;
+}
+
+.section h2 {
+  font-size: 30px;
+  margin-bottom: .7em;
+}
+
+.section--gray {
+  border-top: 1px solid #D6D9DC;
+}
+
+.section--blue {
+  border-top: 1px solid #B2D6FF;
+}
+
+.section--blue h2 {
+  color: #5995DA;
+}
+
+.section--red {
+  border-top: 1px solid #F09A9D;
+}
+
+.section--red h2 {
+  color: #D55C5F;
+}
+
+.section:first-of-type {
+  border-top: none;
+}
+
+.section p,
+.section ul,
+.section ol,
+.section figure {
+  margin-bottom: 1em;
+}
+
+.section p:last-child,
+.section ul:last-child,
+.section ol:last-child,
+.section figure:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 580px) {
+  .section {
+    margin: 4em auto;
+    padding: 2.5em 3em;
+  }
+  .section--gray:first-of-type,
+  .section--gray {
+    border: 1px solid #D6D9DC;
+  }
+  .section--blue:first-of-type,
+  .section--blue {
+    border: 1px solid #B2D6FF;
+  }
+  .section--red:first-of-type,
+  .section--red {
+    border: 1px solid #F09A9D;
+  }
+}
+
+
+@media only screen and (min-width: 750px) {
+  nav {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  nav li {
+    width: auto;
+    border-top: none;
+  }
+
+  nav li:nth-of-type(2n) {
+    border-left: none;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+    .not-so-manageable {
+      max-width: 100%;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+  }
