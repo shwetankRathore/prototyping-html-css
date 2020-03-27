@@ -6,7 +6,7 @@ After you read James' chapter on the CSS Box Model, do the following:
 1. **Fork** this repository, and
 2. **Clone** the Forked repo to your computer.
 
-## 2. Open the index.html file into your browser.
+## 2. Open the index.html file into your browser. (Chrome or Firefox for this lesson works fine.)
 
 ## 3. Inspect each element on the page with the Inspector Tool. You should see something like the below image:
 
