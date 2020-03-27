@@ -1,11 +1,10 @@
 # BONUSES
-grid-layout-sandbox/lindgren-grid/bonus.html
-grid-layout-sandbox/lindgren-grid/assets/css/bonus-style.css
-grid-implicit-explicit-placement/lindgren-grid/bonus.html
-grid-implicit-explicit-placement/lindgren-grid/assets/css/bonus-style.css
+hw9-grid-implicit-explicit-placement/lindgren-grid/bonus.html
+hw9-grid-implicit-explicit-placement/lindgren-grid/assets/css/bonus-style.css
+hw10-grid-layout-sandbox/lindgren-grid
 
-# Other files
-change-git-remote.mov
+# Other folders/files
+lectures
 past-finals
 readings
 acumen.org
