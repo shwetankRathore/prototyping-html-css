@@ -9,6 +9,7 @@ past-finals
 readings
 acumen.org
 models-sitemaps
+*.code-workspace
 
 # General
 .DS_Store
