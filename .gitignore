@@ -4,7 +4,11 @@ hw9-grid-implicit-explicit-placement/lindgren-grid/assets/css/bonus-style.css
 hw10-grid-layout-sandbox/lindgren-grid
 
 # Other folders/files
-lectures
+lectures/wk1
+lectures/wk2
+lectures/*.mov
+lectures/slides/htmlcssreview/html-css-review.html
+lectures/slides/htmlcssreview/practice-html.html
 past-finals
 readings
 acumen.org
