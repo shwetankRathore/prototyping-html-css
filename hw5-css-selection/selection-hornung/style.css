@@ -19,7 +19,7 @@
     margin: 20px auto;
 }
 .button:hover,
-.button:visited {
+.button:visited:hover {
     color: #FFF;
     background-color: #76AEED;
 }
@@ -33,7 +33,7 @@
     margin: 0 auto;
 }
 #button-2 {
-    background-color: #D55C5F;
+    background-color: #D55C5f;
 }
 .call-to-action:link,
 .call-to-action:visited {
@@ -52,7 +52,7 @@
     font-style: normal;
 }
 a:link {
-    color:blue;
+    color: blue;
     text-decoration: none;
 }
 a:visited {
@@ -72,5 +72,5 @@ a:visited:active {
     color: red;
 }
 p:last-of-type {
-    margin-bottom: 50px;
+    margin-bottom: 5-px;
 }
