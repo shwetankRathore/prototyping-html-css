@@ -6,7 +6,6 @@
 .button:visited {
     display: block;
     text-decoration: none;
-
     color: #FFF;
     background-color: #5995DA;
     font-weight: bold;
@@ -14,7 +13,6 @@
     text-align: center;
     border: 2px solid #5D6063;
     border-radius: 5px;
-
     width: 200px;
     margin: 20px auto;
 }
@@ -73,4 +71,24 @@ a:visited:active {
 }
 p:last-of-type {
     margin-bottom: 5-px;
+}
+section {
+    text-align: center;
+}
+.sidebar {
+    border: 2px solid gold;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+}
+section li {
+    text-align: left;
+}
+#section-heading {
+    color: plum;
+    font-weight: 200;
+}
+#pseudo-heading {
+    color: blueviolet;
+    font-style: italic;
 }
