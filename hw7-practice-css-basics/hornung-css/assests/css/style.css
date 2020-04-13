@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoCondensed-Bold-webfont.woff') format('woff');
+}
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
 #section-1-heading {
     text-align: right;
     color: black;
