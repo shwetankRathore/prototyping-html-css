@@ -1,14 +1,10 @@
-.button {
-    text-decoration: none;
-    color: lightcoral;
-    background-color: white;
-    font-weight: bold;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 20px;
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoCondensed-Bold-webfont.woff') format('woff');
+}
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
 }
 #section-1-heading {
     text-align: right;
@@ -16,14 +12,11 @@
 }
 #subheading-1 {
     color: white;
+    padding-left: 10px;
 }
 .header {
     text-align: center;
     background-color: lightsalmon;
-}
-#html-button {
-    margin-left: 40px;
-
 }
 .footer {
     text-align: center;
@@ -31,4 +24,34 @@
 }
 .section {
     background-color: lightcoral;
+}
+.header-image {
+    width: 150px;
+    padding-left: 300px; 
+    padding-right: 70px;
+    padding-top: 20px;
+}
+.image-1 {
+    float: left; 
+    padding-right: 5px;
+    padding-left: 10px;
+    width: 300px;
+    border-radius: 50%;
+}
+.paragraph-image {
+    float: left; 
+    padding-right: 5px;
+    padding-left: 10px;
+    width: 75px;
+}
+ul, li {
+    display: inline-block;
+    padding-right: 10px;
+}
+nav {
+    display: inline;
+}
+.footer-links {
+    border-right: 1px solid black; 
+    padding-right: 5px;
 }
