@@ -20,7 +20,7 @@ Follow the usual procedure:
     3. Inside <code>assets</code>, create a ```.keep``` file and ```css``` folder.
     4. Inside <code>css</code>, create a <code>style.css</code> file.
 4. Once you create this basic structure, then create a semantic version of the image above. **DO NOT** use your code editor's page rendering feature. Instead, practice designing this site with the browser's inspection tool. See the placholder options in the references section.
-5. Once you've completed your practice web page, follow the procedure: push the changes to your forked code repo, then create a pull request to the organization's repo.
+5. Once you've completed your practice web page, commit and push the changes.
 
 ## Resources
 
