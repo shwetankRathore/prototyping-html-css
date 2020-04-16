@@ -1,7 +1,7 @@
-# HW1 Pull Request Practice
+# Pull-Request-Practice 
 
-<h2>Anna Brooks</h2>
+<h1>Engl 4814</h1>
 
-<strong>Engl 4814</strong>
+<strong>Anna Brooks</strong>
 
-<em>I hope I get it right this time<em>
+<em>I don't think I am going to be very good at this lol</em>
