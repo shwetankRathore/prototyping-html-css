@@ -1,1 +1,1 @@
-![wireframe](hornung-grid/assets/images/wireframe.JPG)
+![wireframe](hornung-grid/assets/images/wireframe.png)
