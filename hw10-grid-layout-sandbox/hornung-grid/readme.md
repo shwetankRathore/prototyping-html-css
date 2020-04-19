@@ -1,1 +1,1 @@
-<img src='assets/images/wireframe.jpg' alt='wireframe' />
+![wireframe](.images/wireframe.jpg)
