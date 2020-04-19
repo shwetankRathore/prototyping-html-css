@@ -1,1 +1,1 @@
-![wireframe](/Users/meganhornung/Documents/prototyping-html-css/hw10-grid-layout-sandbox/hornung-grid/assets/images/wireframe.JPG)
+![wireframe](hornung-grid/assets/images/wireframe.JPG)
