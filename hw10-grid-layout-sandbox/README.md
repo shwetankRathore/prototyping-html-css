@@ -12,7 +12,7 @@ Feel free to also include additional elements for practice and apply a simple co
 
 **DO NOT** copy-paste their code, if available. This is considered plagiarism in this situation, since I am asking you to distill the overall design. Besides copy-pasting their code would prove difficult anyway, since they may not even be using CSS Grid, so their HTML and CSS will be quite different.
 
-**Due**: Tuesday, 04/30/19 @ 2:00pm.
+**Due**: End of the semester.
 
 Follow the usual procedure:
 
@@ -29,7 +29,7 @@ Follow the usual procedure:
 5. Once your wireframe is complete, add an image of the wireframe to your <code>images</code> folder.
 6. Embed this image in your README.md file with an image tag.
 7. Under the image, add a link to the site or embed another image of the grid artifact.
-8. **25 BONUS POINTS**: Make your site **mobile-first** by making it flex between a large and small screen by using the <code>@media</code> query with a suitable breakpoint. You can add these bonus points to any assignment.
+8. **BONUS Challenge**: Make your site **mobile-first** by making it flex between a large and small screen by using the <code>@media</code> query with a suitable breakpoint. You can add these bonus points to any assignment.
 8. Once you've completed your site, follow the procedure: push the changes to your forked code repo, then create a pull request to the organization's repo.
 
 ## Resources
