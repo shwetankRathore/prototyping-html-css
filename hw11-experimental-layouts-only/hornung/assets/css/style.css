@@ -107,6 +107,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 9px;
 }
 #food {
     width: 530px;
