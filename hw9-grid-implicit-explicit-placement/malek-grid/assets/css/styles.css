@@ -1,0 +1,29 @@
+/* CSS Document */
+body{
+    background-color: aqua;
+}
+
+.container1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 1rem;
+  }
+
+  .container2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 1rem;
+  }
+
+  .item1 {
+      background-color:pink;
+  }
+
+  .item2 {
+    background-color: white;
+}
+
