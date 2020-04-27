@@ -2,6 +2,8 @@
     font-family: bangers;
     src: url(bangers-regular.ttf);
 }
+
+/* Grid */
 .container {
     display: grid;
     width: 100%;
@@ -71,6 +73,8 @@
     grid-column-end: 3;
     background-color: tan;
 }
+
+/* Images */
 #alfredo {
     width: 200px;
     height: 150px;
@@ -116,6 +120,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Headings */
 #mainhead {
     font-size: 60px;
     padding-top: 10px;
@@ -127,6 +133,8 @@
     margin-right: 5px;
     margin-left: 5px;
 }
+
+/* Buttons */
 .button {
     background-color: tan;
     border: 3px solid black;
@@ -139,6 +147,8 @@
     border-radius: 4px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+/* Fonts */
 p{
     font-size: 20px;
     font-family: 'Comic Neue', cursive;
