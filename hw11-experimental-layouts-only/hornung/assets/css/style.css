@@ -13,7 +13,7 @@
     grid-gap: 1rem;
     text-align: center;
 }
-.div1 {
+.intro {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -21,7 +21,7 @@
     background-color: tan;
     font-family: 'Comic Neue', cursive;
 }
-.div2 {
+.cookbook {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 3;
@@ -31,35 +31,35 @@
     font-size: 20px;
     font-family: 'Comic Neue', cursive;
 }
-.div3 {
+.pasta {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: rgb(238, 177, 63);
 }
-.div4 {
+.dinner {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 4;
     background-color: rgb(67, 196, 67);
 }
-.div5 {
+.drink {
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: tan;
 }
-.div6 {
+.dessert {
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 4;
     background-color: rgb(238, 177, 63);
 }
-.div7 {
+.side {
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 4;
