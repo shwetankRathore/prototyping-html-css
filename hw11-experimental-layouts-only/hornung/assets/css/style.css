@@ -133,6 +133,10 @@
     margin-right: 5px;
     margin-left: 5px;
 }
+.heading {
+    font-family: 'Comic Neue', bold;
+    font-size: 25px;
+}
 
 /* Buttons */
 .button {
@@ -165,8 +169,4 @@ ul {
 }
 ol {
     font-family: 'Indie Flower', cursive;
-}
-.heading {
-    font-family: 'Comic Neue', bold;
-    font-size: 25px;
 }
