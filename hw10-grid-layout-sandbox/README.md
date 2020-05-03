@@ -16,21 +16,19 @@ Feel free to also include additional elements for practice and apply a simple co
 
 Follow the usual procedure:
 
-1. Fork to your profile
-2. Clone your forked version to your computer
-3. Create your own folder within this root folder, as follows:
+1. Create your own folder within this root folder, as follows:
   1. Create a new folder with the name: <code>lastname-grid</code>, where "lastname" is your last name. **NOTE** the example folder with my name: <code>lindgren-grid</code>.
   2. Inside your specific folder,
     1. Create an index.html file and README.md file.
     2. Create an <code>assets</code> folder with a ```.keep``` file.
     3. Inside <code>assets</code>, create a <code>css</code> and <code>images</code> folder.
     4. Inside <code>css</code>, create a <code>style.css</code> file.
-4. Once you create this basic structure, then wireframe your layout in the wild. (See the <code>/wireframes</code> folder.)
-5. Once your wireframe is complete, add an image of the wireframe to your <code>images</code> folder.
-6. Embed this image in your README.md file with an image tag.
-7. Under the image, add a link to the site or embed another image of the grid artifact.
-8. **BONUS Challenge**: Make your site **mobile-first** by making it flex between a large and small screen by using the <code>@media</code> query with a suitable breakpoint. You can add these bonus points to any assignment.
-8. Once you've completed your site, follow the procedure: push the changes to your forked code repo, then create a pull request to the organization's repo.
+2. Once you create this basic structure, then wireframe your layout in the wild. (See the <code>/wireframes</code> folder.)
+3. Once your wireframe is complete, add an image of the wireframe to your <code>images</code> folder.
+4. Embed this image in your README.md file with an image tag.
+5. Under the image, add a link to the site or embed another image of the grid artifact.
+6. **BONUS Challenge**: Make your site **mobile-first** by making it flex between a large and small screen by using the <code>@media</code> query with a suitable breakpoint. You can add these bonus points to any assignment.
+7. Once you've completed your site, follow the procedure: push the changes to your forked code repo, then create a pull request to the organization's repo.
 
 ## Resources
 
