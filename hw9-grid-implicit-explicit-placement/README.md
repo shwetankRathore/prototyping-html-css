@@ -4,20 +4,22 @@
 
 **Goal**: Practice your HTML and CSS layout skills by recreating the 2 images at the bottom of this page as a website. Feel free to also include additional elements for practice and apply a simple color scheme.
 
-**Due**: 
+**Due**: Thursday, 04/25/19 @ 2:00pm.
 
 Follow the usual procedure:
 
-1. Create your own folder within this root folder, as follows:
+1. Fork to your profile
+2. Clone your forked version to your computer
+3. Create your own folder within this root folder, as follows:
   1. Create a new folder with the name: <code>lastname-grid</code>, where "lastname" is your last name. **NOTE** the example folder with my name: <code>lindgren-grid</code>.
   2. Inside your specific folder,
     1. Create an implicit.html file and explicit.html file.
     2. Create an <code>assets</code> folder.
     3. Inside <code>assets</code>, create a <code>css</code> folder.
     4. Inside <code>css</code>, create a <code>style.css</code> file. Use this file for both pages.
-3. Once you create this basic structure, then create a semantic version of the images below.
+4. Once you create this basic structure, then create a semantic version of the images below.
   - **DO NOT** use Atom's page rendering feature. Instead, practice designing this site with the **MOZILLA FIREFOX** browser's inspection tool. See the placholder options in the references section.
-4. Once you've completed your practice site, follow the procedure: commit and push the changes to the org.
+5. Once you've completed your practice site, follow the procedure: push the changes to your forked code reop, then create a pull request to the org.
 
 ## Implicit Grid
 

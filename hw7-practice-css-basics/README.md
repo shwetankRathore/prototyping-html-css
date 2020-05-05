@@ -10,15 +10,17 @@
 
 Follow the usual procedure:
 
-1. Create your own folder within this root folder, as follows:
+1. Fork to your profile
+2. Clone your forked version to your computer
+3. Create your own folder within this root folder, as follows:
   1. Create a new folder with the name: <code>lastname-css</code>, where "lastname" is your last name. **NOTE** the example folder with my name: <code>lindgren-css</code>.
   2. Inside your specific folder,
     1. Create an index.html file.
     2. Create an <code>assets</code> folder.
     3. Inside <code>assets</code>, create a ```.keep``` file and ```css``` folder.
     4. Inside <code>css</code>, create a <code>style.css</code> file.
-2. Once you create this basic structure, then create a semantic version of the image above. **DO NOT** use your code editor's page rendering feature. Instead, practice designing this site with the browser's inspection tool. See the placholder options in the references section.
-3. Once you've completed your practice web page, commit and push the changes.
+4. Once you create this basic structure, then create a semantic version of the image above. **DO NOT** use your code editor's page rendering feature. Instead, practice designing this site with the browser's inspection tool. See the placholder options in the references section.
+5. Once you've completed your practice web page, follow the procedure: push the changes to your forked code repo, then create a pull request to the organization's repo.
 
 ## Resources
 
