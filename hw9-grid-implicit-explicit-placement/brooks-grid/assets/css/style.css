@@ -30,7 +30,7 @@
     grid-gap: 1rem;
     grid-template-areas: 
     "top top top na1 na1 na1 na1"
-    "na2 na2 middle middle na3 na3"
+    "na2 na2 middle middle middle na3 na3"
     "na4 na4 na4 na4 bottom bottom bottom";
 }
 .top{
