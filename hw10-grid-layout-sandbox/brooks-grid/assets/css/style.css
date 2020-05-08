@@ -1,3 +1,34 @@
+header {
+    background: black;
+    height: 300px;
+    /* Center text vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+nav a {
+    
+}
+
+main {
+    
+}
+main section.line-practice {
+    
+}
+main section img {
+    width: 150px;
+}
+
+
+/* Old code */
 .page{
     display: grid;
     grid-template-columns: 100%;
@@ -21,7 +52,7 @@ padding: 20px 0px;
 margin-left:  auto;
 margin-right: auto;
 }
-#navbar a{
+/* #navbar a{
     display: flex;
     color: white;                    
     text-align: center;
@@ -47,7 +78,7 @@ nav a, nav p {
 }
 nav a:hover {
     background-color: white;      
-}
+} */
 .main {
     padding: 0 5%;
     border-bottom: 3px red;      
