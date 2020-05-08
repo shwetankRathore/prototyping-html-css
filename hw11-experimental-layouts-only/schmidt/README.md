@@ -5,4 +5,4 @@ I live near the city and have done some of this stuff myself. Since we cannot go
 
 Below is the image of my wireframe I created.
 
-<img style="width:80%" src="https://github.com/engl-4814/prototyping-html-css/tree/gh-pages/hw11-experimental-layouts-only/schmidt/assets/media/wireframe_hw11_NS.jpg">
+<img style="width:80%" src="https://github.com/engl-4814/prototyping-html-css/blob/gh-pages/hw11-experimental-layouts-only/schmidt/assets/media/wireframe_hw11_NS.JPG?raw=true">
