@@ -1,0 +1,143 @@
+/* CSS Document */
+body{
+    background-color: white;
+}
+
+.navbar {
+    display: grid;
+    background-color: lightgrey;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 50px;
+    grid-gap: 0.25rem;
+    text-align: center;
+}
+
+.nav1 {
+    background-color:white;
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav2 {
+    background-color:white;
+    grid-column: 3 / 4;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav3 {
+    background-color:white;
+    grid-column: 6 / 7;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav4 {
+    background-color:white;
+    grid-column: 7 / 8;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav5 {
+    background-color:white;
+    grid-column: 8 / 9;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav6 {
+    background-color:white;
+    grid-column: 9 / 10;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav7 {
+    background-color:white;
+    grid-column: 11 / 12;
+    grid-row: 1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.page {
+    display: grid;
+    background-color: white;
+    width: 100%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    grid-gap: 0.25rem;
+}
+
+.sidebar {
+    background-color:white;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.article1 {
+    background-color:white;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.sidenav {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr;
+    grid-template-rows: repear(3,1fr);
+}
+
+.button {
+    background-color:lightgrey;
+    border: solid black 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.art {
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repear(3,1fr);
+}
+
+.headline {
+    background-color:white;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.blurb {
+    background-color:white;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+
+.subheading1 {
+    background-color:white;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.subheading2 {
+    background-color:white;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.subheading3 {
+    background-color:white;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
