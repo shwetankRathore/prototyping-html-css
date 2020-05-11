@@ -1,0 +1,74 @@
+/*
+ *
+ * Grid Controls for implicit.html
+ *
+ */
+
+.grid-implicit {
+	margin: auto;
+	margin-bottom: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+.footer-implicit {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+}
+
+.footer-item {
+        padding: 2em;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+}
+
+/*
+ *
+ * Grid Controls for explicit.html
+ *
+ */
+
+.grid-explicit {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 1em;
+}
+
+#ex-grid-item-1 {
+	grid-column: 1 / 4;
+	grid-row: 1;
+}
+
+#ex-grid-item-2 {
+	grid-column: 3 / 6;
+	grid-row: 2;
+}
+
+#ex-grid-item-3 {
+	grid-column: 5 / 8;
+	grid-row: 3;
+}
+
+/*
+ *
+ * Settings for both
+ *
+ */
+
+main {
+        max-width: 800px;
+        margin: auto;
+}
+
+img {
+        margin: auto;
+        width: 100%;
+}
+
+.grid-text {
+        border: 5px solid black;
+        padding: 2em;
+}
+
