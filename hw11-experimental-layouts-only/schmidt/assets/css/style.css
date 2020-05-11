@@ -1,0 +1,295 @@
+body {
+    font-size: 16px;
+    font-family: 'Lora';
+}
+.toppage {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 0px;
+}
+nav {
+    display: inline;
+}
+.navbar img, .navbar a, .dropdown {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar img {
+    padding-left: 20px; 
+    padding-right: 650px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.navbar a {
+    color: #2d507e;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #2d507e;
+    color: white;
+}
+.toppic {
+    position: relative;
+    display: inline-block;
+}
+.toppic .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 45%; 
+        text-align: center;
+        width: 60%; 
+}
+.text {
+    color: white;
+    font-style: italic;
+    animation-name: changecolor;
+    animation-duration: 8s;
+}
+@keyframes changecolor {
+    from {color:rgb(33, 32, 36);}
+    to {color: white;}
+}
+.dropdown {
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #2d507e;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 0;
+}
+.dropbtn {
+    font-weight: bold;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: #2d507e;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+.mainpage-contain {
+    display: grid;
+    padding-top: 100px;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    grid-template-rows: repeat(5, 300px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'img1 img1 img2 img2 img3 img3'
+    'word1 word1 word2 word2 word3 word3'
+    'img4 img4 img4 word4 word4 word4'
+    'empty1 img5 word5 word5 word5 empty2'
+    'empty3 img6 word6 word6 word6 empty4';
+}
+
+.img1 {
+    grid-area: img1;
+    padding-left: 190px;
+}
+.img2 {
+    grid-area: img2;
+}
+.img3 {
+    grid-area: img3;
+    padding-right: 190px;
+}
+.word1 {
+    grid-area: word1;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 185px;
+}
+.word2 {
+    grid-area: word2;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.word3 {
+    grid-area: word3;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 190px;
+}
+.img4 {
+    grid-area: img4;
+}
+.word4 {
+    grid-area: word4;
+    text-align: center;
+    padding-top: 50px;
+    background-color: lightslategray;
+    padding-bottom: 392px;
+}
+.empty1 {
+    grid-area: empty1;
+}
+.img5 {
+    grid-area: img5;
+    padding-top: 150px;
+}
+.word5 {
+    grid-area: word5;
+    padding-top: 120px;
+    text-align: left;
+}
+.empty2 {
+    grid-area: empty2;
+}
+.empty3 {
+    grid-area: empty3;
+}
+.img6 {
+    grid-area: img6;
+    padding-top: 80px;
+}
+.word6 {
+    grid-area: word6;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+.empty4 {
+    grid-area: empty4;
+}
+
+
+
+.wild-contain img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wild-contain p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wild-contain h2 {
+    color: rgb(109, 108, 108);
+}
+
+.booking {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #2d507e;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+.booking:hover {
+    background-color: #192d47;
+    color: white;
+}
+.foods {
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: lightslategrey;
+    padding: 15px 15px;
+    margin: 0;
+}
+.foods:hover {
+    color: rgb(8, 8, 8);
+}
+
+.word5 p {
+    color: rgb(102, 101, 101);
+    font-size: 18px;
+}
+.word5 h2 {
+    color: #2d507e;
+}
+.article {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #2d507e;
+    padding: 15px 15px;
+    margin: 0;
+}
+
+.article:hover {
+    background-color: #192d47;
+    color: white;
+}
+.word6 p {
+    color: rgb(102, 101, 101);
+    font-size: 18px;
+}
+.word6 h2 {
+    color: #2d507e;
+}
+
+.footer a {
+    color: #ffffff;
+    background-color: lightslategray;
+    text-align: center;
+    padding-top: 150px;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer a:hover {
+    color: #192d47;
+}
+.footer {
+    background-color: lightslategray;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.footer p {
+    color: rgb(82, 93, 104);
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.border {
+    border-right: 1px solid white; 
+    padding-right: 5px;
+}
