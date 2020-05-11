@@ -1,0 +1,46 @@
+.implicit-container{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    text-align: center;
+    border: 2px pink;
+}
+.implicit-footer{
+    display: grid;
+    width: 100%;
+    height: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    text-align: center;
+}
+.implicit-footer div, .container-im div{
+    border: 2px gray;
+}
+.implicit-footer p{
+    vertical-align: middle;
+}
+.explicit-container{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 510px);
+    grid-gap: 1rem;
+    grid-template-areas:
+    "top top top na1 na1 na1 na1"
+    "na2 na2 middle middle middle na3 na3"
+    "na4 na4 na4 na4 bottom bottom bottom";
+}
+.top{
+    grid-area: top;
+    border: 2px white;
+}
+.middle{
+    grid-area: middle;
+    border: 2px blue;
+}
+.bottom{
+    grid-area: bottom;
+    border: 2px salmon;
