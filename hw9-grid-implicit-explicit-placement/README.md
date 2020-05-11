@@ -4,7 +4,7 @@
 
 **Goal**: Practice your HTML and CSS layout skills by recreating the 2 images at the bottom of this page as a website. Feel free to also include additional elements for practice and apply a simple color scheme.
 
-**Due**: 
+**Due**:
 
 Follow the usual procedure:
 
