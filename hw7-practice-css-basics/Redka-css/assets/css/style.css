@@ -1,0 +1,35 @@
+.button {
+    text-decoration:none;
+    color: purple;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px; 
+    text-align: center;
+    border: 4px black;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 10px; 
+}
+#section-1-heading {
+    text-align: right center;
+    color: bold black;
+}
+#subheading-1 {
+    color: pearl; 
+}
+.header {
+    text-align: center;
+    background-color: white; 
+}
+#html-button {
+    margin-left: 20px;
+}
+.footer { 
+    padding: 5px; 
+    text-align: right center;
+    background-color: white;
+}
+.section {
+    background-color: white;
+}
+

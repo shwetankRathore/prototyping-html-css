@@ -1,0 +1,58 @@
+.navigation {
+    text-align: top-right;
+    text-color: navy; 
+    background-color: white;
+}
+.image-1 {
+    grid-area: image-1;
+    padding: 400px;
+}
+.header-one {
+    text-color: white;
+    text-align: top-center;
+    background-color: gray;
+    padding: 50px;
+}
+.subheader-one {
+    text-color: white;
+    text-align: top-center;
+    background-color: gray;
+    padding: 20px;    
+}
+.image-2 {
+    grid-area: image-2;
+    padding: 100px;
+    text-color: white;
+    text-align: center;
+    background-color: gold;
+}
+.button-one {
+    text-color: gold;
+    text-align: bottom-left;
+    background-color: white;
+    padding; 20px
+}
+.button-two {
+    text-color: gold;
+    text-align: bottom-center-left;
+    background-color: white;
+    padding; 20px
+}
+.button-three {
+    text-color: gold;
+    text-align: bottom-right-center;
+    background-color: white;
+    padding; 20px
+}
+.button-four {
+    text-color: gold;
+    text-align: bottom-right; 
+    background-color: white;
+    padding; 20px
+}
+.subheader-two {
+    text-color: gold;
+    text-align: bottom-center;
+    background-color: gray;
+    padding: 20px;    
+}
