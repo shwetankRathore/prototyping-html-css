@@ -1,0 +1,56 @@
+/*CSS Document*/
+body{
+    background-color: lightblue;
+}
+
+#image1 {
+    width: 468px;
+    height: 60px
+}
+
+#image2 {
+    width: 728px;
+    height: 90px;
+}
+
+.page1 {
+    display:grid
+background-color:lightgoldenrodyellow
+grid-template-columns: repeat(5,1fr)
+grid-tempelate-rows:(5,10)
+text-align: center;
+
+item1 {
+    display:grid
+background-color:lightgoldenrodyellow
+grid-template-column: 1
+grid-tempelate-row: 1
+text-align: center;
+
+#item2 {
+    display: grid
+    grid-template-column: 2
+    grid-tempelate-row: 2
+    text-align: center;
+
+
+.item3 {
+    display:grid
+    grid-template-column: 3
+    grid-tempelate-row: 3
+    text-align: center;
+
+
+.top{
+    grid-area: top-right;
+
+}
+
+.middle {
+    grid-area: middle;
+
+}
+
+.bottom {
+    grid-area: bottom-right
+}
