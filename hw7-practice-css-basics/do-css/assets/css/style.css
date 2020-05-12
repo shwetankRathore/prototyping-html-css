@@ -1,0 +1,35 @@
+.homepage {
+	padding: 1em;
+	border-bottom: 2px solid salmon;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav{
+    display: inline;
+    padding: 0 2px;
+}
+main {
+	margin: auto;
+	max-width: 1000px;
+}
+
+article {
+	margin: auto;
+	width: 90%;
+}
+.mainsection {
+    padding: 2em;
+    border-bottom: 3px solid salmon;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+}
+.sitefooter {
+	border-top: 2px solid black;
+	padding: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
