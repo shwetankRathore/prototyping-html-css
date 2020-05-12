@@ -1,0 +1,16 @@
+#navigation  {
+    color: #7E8184;        /* Light blue */
+    font-style: italic;
+    width: 728px;
+    height:90px
+  }
+  nav{
+    display: inline;
+    padding: 0 2px;
+}
+#image1 {
+    color: #7E8184; /* Light green */
+    width: 468px;
+    height:60px
+}
+

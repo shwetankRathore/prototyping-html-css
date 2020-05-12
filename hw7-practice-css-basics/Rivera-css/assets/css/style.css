@@ -1,0 +1,42 @@
+
+
+nav * {
+  display: inline;
+  text-align: center;
+  padding: 30px;
+}
+
+.image1 {
+  float: left;
+  border-radius: 50%;
+margin: 0px 50px;
+max-width: 354;
+max-height: 354;
+}
+
+.main{
+  border-bottom: 3px solid
+}
+
+.image2 {
+  float: left;
+
+}
+
+.image3 {
+  float: left;
+}
+
+.third {
+  border-bottom: 3px solid
+}
+
+.foot {
+  text-align: center;
+  padding: 30px;
+  display: block;
+}
+
+.footer {
+  padding: 20px
+}

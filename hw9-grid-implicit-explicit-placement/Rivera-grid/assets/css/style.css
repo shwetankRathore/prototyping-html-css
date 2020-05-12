@@ -1,0 +1,55 @@
+.implicit1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  text-align: left;
+}
+
+div {
+  display: block;
+  padding: inherit;
+}
+
+.implicit1 h1 {
+  text-align: center;
+}
+
+.implicit1 p {
+  padding: 3px
+}
+
+.implicit-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+.explicitbody {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: auto;
+  height: auto;
+}
+
+.exheading {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.explicit1 {
+grid-column: 1;
+grid-row: 2;
+}
+
+.explicit2 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.explicit3 {
+  grid-column: 3;
+  grid-row: 4;
+}
