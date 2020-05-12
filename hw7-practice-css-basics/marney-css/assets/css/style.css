@@ -1,0 +1,6 @@
+.homepage {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: initial;
+    grid-gap: 5%
+}
