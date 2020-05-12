@@ -1,0 +1,52 @@
+.title {
+    text-align: top-right;
+    color: gold;
+    background-color: white;
+    padding: 100px;
+}
+.nav {
+    text-align: top-left;
+    color: black;
+    background-color: white;
+    padding: 75px;
+}
+.header-1 {
+    text-align: left;
+    color: black;
+    background-color: white;
+    padding: 50px;
+}
+.paragraph-1 {
+    text-align: left;
+    color: black;
+    background-color: white; 
+    padding: 40px;
+}
+.header-2 {
+    text-align: left;
+    color: black;
+    background-color: white;
+    padding: 50px;
+}
+.paragraph-2 {
+    text-align: left;
+    color: black;
+    background-color: white; 
+    padding: 40px;
+}
+.header-3 {
+    text-align: left;
+    color: black;
+    background-color: white;
+    padding: 50px;
+}
+.paragraph-3 {
+    text-align: left;
+    color: black;
+    background-color: white; 
+    padding: 40px;
+}
+.footer {
+   text-align: bottom-right;
+   padding: 25px;
+}
