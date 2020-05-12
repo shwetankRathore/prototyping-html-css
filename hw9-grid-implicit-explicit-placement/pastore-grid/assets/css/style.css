@@ -16,8 +16,8 @@ body{
 .page1 {
     display:grid
 background-color:lightgoldenrodyellow
-grid-template-columns: repeat(5,1fr)
-grid-tempelate-rows:(5,10)
+grid-template-columns: repeat(,1fr)
+grid-tempelate-rows:(6,10)
 text-align: center;
 
 item1 {
