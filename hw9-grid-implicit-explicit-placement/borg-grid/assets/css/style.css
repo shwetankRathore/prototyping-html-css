@@ -1,0 +1,34 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10px 10px;
+  grid-gap: 20px;
+}
+
+
+.article-two {
+  padding-top: 430px;
+  padding-right: 200px;
+
+}
+
+
+.article-three {
+  padding-top: 900px;
+
+}
+
+.footer{
+  text-align: center;
+  padding-top: 50px;
+}
+
+#title-explicit {
+  padding-left: 95px;
+}
+
+.body-explicit{
+  padding-top: 500px;
+  padding-right: 200px;
+  padding-left: 300px;
+}
