@@ -1,0 +1,53 @@
+.implicit-layout {
+    display: grid;
+    width: 80%;
+    height: auto 
+    grid-template-colums: 2;
+    gid-template-rows: 2;
+}
+.paragraph {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.heading {
+    text-align: center;
+    color: white;
+}
+.implicit-footer {
+    display: grid; 
+    width: 50%; 
+    height: 20px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    text-align: left center;
+}
+.explicit-layout {
+    display: grid;
+    width: 80%;
+    height: auto;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-gap: 1;
+}
+.example-top-right {
+    grid-area: top-right;
+}
+.trial-run-1 {
+    grid-area: trial-run-1;
+}
+.trial-run-2 {
+    grid-area: trial-run-2;
+}
+.trial-run-3 {
+    grid-area: trial-run-3;
+}
+.trial-run-4 {
+    grid-area: trial-run-4;
+}
+.image-1 {
+    height: 250px
+}
+.image-2 {
+    height: 250px
+}
