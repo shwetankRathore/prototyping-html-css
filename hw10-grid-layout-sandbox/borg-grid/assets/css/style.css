@@ -1,0 +1,53 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  height: 11%;
+  width: 100%;
+  background-color: tan;
+}
+
+.navbar a {
+  margin-top: 30px;
+  float: right;
+  display: block;
+  width: 150px;
+  color: gray;
+  font: helvetica;
+  text-align: center;
+  padding: 10px;
+  margin-right: 100px;
+  text-decoration: none;
+  background-color: beige;
+}
+
+.navbar a:hover {
+  background: #0492c2;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10px 10px;
+  grid-gap: 20px;
+}
+
+.article-one {
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+
+.article-two {
+  padding-top: 630px;
+  padding-right: 90px;
+  padding-left: 25px;
+
+}
+
+.footer {
+  font-family: ff-providence-web-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
