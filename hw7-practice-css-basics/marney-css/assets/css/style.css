@@ -52,7 +52,7 @@ nav {
     padding: 0 10%;
     border-bottom: 20px lightcoral;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 #sub {
     color: lightcoral;
@@ -65,7 +65,4 @@ nav {
 .footer {
     color: turquoise;
     padding: 20px;
-}
-footer {
-    display: inline-table;
 }
