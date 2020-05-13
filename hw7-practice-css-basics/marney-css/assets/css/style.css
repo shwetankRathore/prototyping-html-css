@@ -43,6 +43,8 @@ nav {
 }
 .main p {
     text-align: right;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 .content {
     text-align: left;
