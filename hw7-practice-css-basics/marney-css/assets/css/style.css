@@ -39,6 +39,7 @@ nav {
 }
 .main h1 {
     text-align: justify;
+    text-indent: inherit;
     color: darkslategrey
 }
 .main p {
