@@ -49,9 +49,10 @@ nav {
 }
 .content {
     text-align: left;
-    padding: 0 90%;
+    padding: 0 10%;
     border-bottom: 20px lightcoral;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 #sub {
     color: lightcoral;
@@ -64,5 +65,7 @@ nav {
 .footer {
     color: turquoise;
     padding: 20px;
+}
+footer {
     display: inline-table;
 }
