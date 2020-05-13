@@ -10,8 +10,8 @@ nav {
     display: inline-table;
 }
 #navigate img {
-    padding-left: 20px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -35,17 +35,16 @@ nav {
 .main img {
     float: left;
     border-radius: left;
-    shape-outside: circle();
     margin: 50px;
 }
 .main h1 {
-    text-align: left;
+    text-align: justify;
     color: darkslategrey
 }
 .main p {
     text-align: justify;
     margin-left: 500px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 .content {
     text-align: left;
