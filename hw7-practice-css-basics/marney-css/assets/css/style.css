@@ -16,12 +16,12 @@ nav {
 }
 #navigate a {
     color: green;
-    text-align: left;
+    text-align: lrighteft;
     padding: 0 20px;
     margin: 15px;
     text-decoration: none;
-    justify-content: left;
-    align-items: left;
+    justify-content: right;
+    align-items: right;
 }
 #navigate a:hover {
     background-color: lightskyblue;
@@ -41,8 +41,11 @@ nav {
     text-align: left;
     color: darkslategrey
 }
+.main p {
+    text-align: right;
+}
 .content {
-    text-align: center;
+    text-align: left;
     padding: 0 10%;
     border-bottom: 20px lightcoral;
     margin-bottom: 20px;
