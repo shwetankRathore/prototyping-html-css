@@ -37,6 +37,16 @@ p.quote { font-style: italic; color: #555; padding-left: .5em; padding-right: .5
 	color: black;
 }
 
+.intro {
+	padding: 1.3em;
+}
+
+.hero-quote {
+	font-size: 1.7em;
+	font-style: italic;
+	color: var(--accent);
+}
+
 main {
 	max-width: 1200px;
 	margin: auto;
@@ -71,6 +81,8 @@ aside.contact {
 	padding: 2em;
 	background-color: #CCC;
 	margin-bottom: 2em;
+        border: 2px solid #AAA;
+        box-shadow: 5px 10px #AAA;
 }
 
 .footer-text {
@@ -79,4 +91,5 @@ aside.contact {
 
 @media screen and (max-width: 650px) {
 	* { font-size: 18px; }
+	.hero-quote { font-size: 1.2em; }
 }
