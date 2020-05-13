@@ -17,7 +17,7 @@ a:hover { color: var(--accentlight); }
 p.quote { font-style: italic; color: #555; padding-left: .5em; padding-right: .5em; }
 
 .hero {
-	background-image: url("/assets/images/hero.jpg");
+	background-image: url("../images/hero.jpg");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
