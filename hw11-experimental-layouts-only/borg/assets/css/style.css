@@ -1,0 +1,89 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 200px;
+  height: 11%;
+  width: 200px;
+  margin-left: 1200px;
+}
+
+.navbar a {
+  margin-top: 10px;
+  float: right;
+  display: block;
+  width: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font: helvetica;
+  text-align: center;
+  padding: 10px;
+  text-decoration: line-through;
+}
+
+.navbar a:hover {
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 800px 800px;
+  grid-gap: 70px;
+
+}
+
+.captions {
+  font-family: monospace;
+  font-kerning: 25px;
+  color: red;
+  font-size: 15px;
+  position: absolute;
+
+}
+
+.caption-emphasis {
+  font-family: monospace;
+  font-kerning: 85px;
+  color: darkorange;
+  font-size: 45px;
+  position: absolute;
+}
+
+
+.last-section {
+  position: relative;
+  margin-top: 100px;
+}
+
+.lines {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+}
+
+.girl {
+  position: absolute;
+  width: 25%;
+  padding-right: 800px;
+  z-index: 2;
+  top: 145px;
+  left: 157px;
+}
+
+.footer {
+  font: helvetica;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+  margin-top: 150px;
+  margin-left: 60px;
+}
